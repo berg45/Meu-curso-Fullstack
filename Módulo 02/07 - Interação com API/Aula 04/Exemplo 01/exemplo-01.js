@@ -11,8 +11,8 @@ async function buscar(){
 
    document.body.innerHTML += `
         <h1>  
-            ${convertido} 
         </h1>
+            ${convertido} 
         <P>
            ${numeros[x]}
         </p>

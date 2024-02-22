@@ -1,0 +1,23 @@
+[
+    {
+        "marca": "samsung",
+        "modelo": "S23 utra",
+        "armazenamento": "250 gb",
+        "memoriaram": "16 gb"
+        
+    },
+
+    {
+        "marca": "Apple",
+        "modelo": "iphone 14",
+        "armazenamento": "500 gb",
+        "memoriaram": "16 gb"
+    },
+
+    {
+        "marca": "xiaomi",
+        "modelo": "redmi note 12 pro",
+        "armazenamento": "128 gb",
+        "memoriaram": "8 gb"
+    }
+]

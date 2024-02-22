@@ -9,11 +9,11 @@ async function concessionaria(){
     //    alert(carros[1].modelo)
 
     
-         document.body.innerHTML += `
-         <p> A marca do carro é ${carros[0].marca}</p>
-         <p> O modelo é ${carros[0].modelo}</p>
-         <p> O ano é ${carros[0].ano}</p>
-         <p> A cor é ${carros[0].cor}</p>`
+         document.body.innerHTML = `
+         <h1> A marca do carro é ${carros[2].marca}</h1>
+         <p> O modelo é ${carros[2].modelo}</p>
+         <p> O ano é ${carros[2].ano}</p>
+         <p> A cor é ${carros[2].cor}</p>`
     
 
 }

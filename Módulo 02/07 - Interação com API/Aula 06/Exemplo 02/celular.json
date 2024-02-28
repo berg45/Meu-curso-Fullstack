@@ -1,23 +1,29 @@
 [
     {
+        "img":"https://fdn2.mobgsm.com/vv/pics/samsung/samsung-galaxy-s22-ultra-5g-2.jpg",
         "marca": "samsung",
+        "preço": "R$5.990",
         "modelo": "S23 utra",
         "armazenamento": "250 gb",
-        "memoriaram": "16 gb"
+        "memoriaRam": "16 gb"
         
     },
 
     {
+        "img": "https://droidafrica.net/wp-content/uploads/2022/09/Apple-iPhone-14-Pro-Max-768x724.jpg",
         "marca": "Apple",
+        "preço": "R$7.998",
         "modelo": "iphone 14",
         "armazenamento": "500 gb",
-        "memoriaram": "16 gb"
+        "memoriaRam": "16 gb"
     },
 
     {
+        "img": "https://i5.walmartimages.com.mx/mg/gm/3pp/asr/1cd34bc1-33e3-42f1-a9c4-1c5a045f63b7.5ed2bcf113e17eedb20651e9ba23c6db.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
         "marca": "xiaomi",
+        "preço": "R$1.989",
         "modelo": "redmi note 12 pro",
         "armazenamento": "128 gb",
-        "memoriaram": "8 gb"
+        "memoriaRam": "8 gb"
     }
 ]

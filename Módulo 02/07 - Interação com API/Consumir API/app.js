@@ -12,7 +12,7 @@ async function buscarProdutos() {           // Cria uma função assíncrona(pau
 
 function exibirProdutos(produtos) {
     console.log(produtos)
-    for (let x in produtos){
+    for (let x in produtos){    //for é para percorrer uma lista//
         inserirProduto.innerHTML += `
         <li class="produtos__item">
             <div class="produtos__content">

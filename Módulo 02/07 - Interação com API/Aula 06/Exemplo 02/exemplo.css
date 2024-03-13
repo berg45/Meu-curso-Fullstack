@@ -12,12 +12,16 @@
     width: fit-content;
     display:flex;
     flex-direction: column;
-    background-color: rgb(246, 102, 152);
+    background-color: rgb(207, 246, 238);
     
   
 
 }
-body{
+p{
     margin: 0px;
+}
+
+body{
+    margin: 20px;
 }
 

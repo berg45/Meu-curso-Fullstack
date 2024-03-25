@@ -69,6 +69,18 @@ header nav li a {
     font-size: 15px;
     text-decoration: line-through;
 }
+.detalhes{
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: fit-content;
+    background-color: #eadb12;
+}
+.detalhes h3{
+    text-align: center;
+    font-size: 25px;
+}
 
 footer {
     background-color: #282222;

@@ -20,6 +20,14 @@ async function buscar(){
 
         `
     }
+    let divsCards = document.getElementsByClassName("card")
+    for(let card of divsCards){
+        card.addEventListener("click", clicou)
+    }
+}
+function clicou(){
+    let elementoId = this.getAttribute("data-id")
+    window.location.href = "detalhes.html?produto-id=" + elementoId
 
 }
 

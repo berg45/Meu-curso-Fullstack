@@ -69,17 +69,36 @@ header nav li a {
     font-size: 15px;
     text-decoration: line-through;
 }
+
 .detalhes{
-    border: 2px solid blue;
     display: flex;
     flex-direction: column;
+    border: 2px solid rgb(14, 91, 235);
     border-radius: 10px;
     width: fit-content;
-    background-color: #eadb12;
+    background-color: aquamarine;
+
 }
 .detalhes h3{
     text-align: center;
     font-size: 25px;
+}
+.detalhes img{
+    align-items: center;
+    margin: auto;
+    border-radius: 5px;
+}
+.valorCo{
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.valorSe{
+    color: red;
+    font-size: 15px;
+    text-decoration: line-through;
+
 }
 
 footer {

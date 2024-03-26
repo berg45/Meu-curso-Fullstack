@@ -1,5 +1,5 @@
 header{
-    background-color: #0a0a0a;
+    background-color: rgb(92, 17, 17);
     color: #fff;
     text-align: center;
     padding: 2rem 0;
@@ -51,6 +51,8 @@ header nav li a {
     color: rgb(8, 8, 7);
     background-color: #fcf9f9;
     align-items: center;
+    margin: 10px;
+    box-shadow: 7px 7px 10px rgb(249, 59, 1);
 
 }
 .card h3{
@@ -68,6 +70,38 @@ header nav li a {
     color: red;
     font-size: 15px;
     text-decoration: line-through;
+}
+
+.detalhes{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(14, 91, 235);
+    border-radius: 10px;
+    width: fit-content;
+    background-color: rgb(247, 242, 241);
+    box-shadow: 7px 7px 10px greenyellow;
+
+}
+.detalhes h3{
+    text-align: center;
+    font-size: 25px;
+}
+.detalhes img{
+    align-items: center;
+    margin: auto;
+    border-radius: 5px;
+}
+.valorCo{
+    color: rgb(8, 153, 8);
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.valorSe{
+    color: red;
+    font-size: 15px;
+    text-decoration: line-through;
+
 }
 
 footer {

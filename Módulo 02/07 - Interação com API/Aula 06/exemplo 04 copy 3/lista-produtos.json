@@ -1,35 +1,38 @@
 [
     {
-        "nome": "Drone Dji Mini 2",
-        "img": "https://cdn.hiconsumption.com/wp-content/uploads/2018/01/DJI-Mavic-Air-Drone-00.jpg",
-        "descricao": "Um drone para voçê voar por ai.",
-        "valorComDesconto": 1699,
-        "valorSemDesconto": 2000
+        "id": 1,
+        "nome": "Ovo Cacau Show",
+        "img": "https://th.bing.com/th/id/OIP.hf9V5-OrBHPnoMcFp7VCoAHaHa?rs=1&pid=ImgDetMain",
+        "descricao":"Ovo trufado Maracujá 400g" ,
+        "valorComDesconto": 199.99,
+        "valorSemDesconto": 211.94
     },
 
     {
-        "nome": "ventilador Arno Turbo",
-        "img": "https://www.efacil.com.br/wcsstore/ExtendedSitesCatalogAssetStore/Imagens/1000/2217615_01.jpg",
-        "descricao": "Um Ventilador para mandar embora o calor.",
-        "valorComDesconto": 120,
-        "valorSemDesconto": 155
+        "id": 2,
+        "nome": "Ovo Cacau Show",
+        "img": "https://http2.mlstatic.com/D_NQ_NP_2X_785820-MLB41745088426_052020-F.jpg",
+        "descricao":"7 chocolates 400g trufado" ,
+        "valorComDesconto":200.98,
+        "valorSemDesconto":219.94
     },
 
     {
-        "nome": "Tv 43 Smart Samsung ",
-        "img": "https://cdn1.smartprix.com/rx-iDkPTZDHt-w1200-h1200/samsung-43nu6100-43.jpg",
-        "descricao": "Imagem de cinema em casa.",
-        "valorComDesconto": 1599,
-        "valorSemDesconto": 2000
+        "id": 3,
+        "nome": "Ovo Cacau Show",
+        "img": "https://http2.mlstatic.com/D_NQ_NP_916755-MLB54694738849_032023-O.webp",
+        "descricao":"Dreams Mil folhas 400g trufado" ,
+        "valorComDesconto":239.94,
+        "valorSemDesconto": 249.94
     },
 
     {
-        "nome": "Nootebook Lenovo Ideapad",
-        "img":"https://www.bhphotovideo.com/images/images2500x2500/lenovo_81mv00mbus_ideapad_s145_celeron_4205u_1542747.jpg",
-        "descricao": "Leve,compacto e otimo desempenho.",
-        "valorComDesconto": 2500,
-        "valorSemDesconto": 3000
+        "id": 4,
+        "nome": "Ovo Cacau Show",
+        "img": "https://http2.mlstatic.com/D_NQ_NP_968615-MLB73975916666_012024-O.webp",
+        "descricao":"Brigadeiro 300g trufado" ,
+        "valorComDesconto":198.98,
+        "valorSemDesconto":211.94
     }
 
-   
-]
+]    

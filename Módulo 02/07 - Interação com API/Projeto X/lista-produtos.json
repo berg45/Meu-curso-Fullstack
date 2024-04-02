@@ -1,0 +1,76 @@
+[
+    {
+        "id": 1,
+        "img": ["https://th.bing.com/th/id/R.67566c8e3c1762491cf44ce03e2aec51?rik=EO%2b4s90mKn6ebg&pid=ImgRaw&r=0",
+                "https://th.bing.com/th/id/OIP.MvyyDvFct3uin7tKImVi-gHaHa?rs=1&pid=ImgDetMain",
+                "https://th.bing.com/th/id/OIP.lRWh05bPIta22zb5FQJLgwHaHa?pid=ImgDet&w=474&h=474&rs=1"
+               ],
+        "nome": "Fogão Eletrolux",
+        "descricao": "6 bocas,forno auto limpante",
+        "valorComDesconto": 1998,
+        "valorSemDesconto": 2084
+    },
+
+    {
+        "id": 2,
+        "img": ["https://t.ctcdn.com.br/8_Wsb_gdqJNuYxi-2ysMsezbygI=/i22167.jpeg",
+                "https://a-static.mlcdn.com.br/1500x1500/geladeira-brastemp-inverse-frost-free-bre58-478l-127v-branco/madeiramadeira-openapi/311840/e71a958cd663a789177c9e620a04a285.jpg",
+                "https://th.bing.com/th/id/OIP.myxmABi1_aXa44WykE4h2AHaHa?pid=ImgDet&w=474&h=474&rs=1"
+               ],
+        "nome": "Geladeira Brastemp Inverse",
+        "descricao": "Frost free 419 litros",
+        "valorComDesconto": 4699,
+        "valorSemDesconto": 4999
+    }
+    ,
+    {
+        "id": 3,
+        "img": ["https://th.bing.com/th/id/OIP.Rxqx1D1lWO8H4MVgfukbCgAAAA?rs=1&pid=ImgDetMain",
+                "https://th.bing.com/th/id/OIP.x-kjLH3nKT_PlhCET24VagHaE8?pid=ImgDet&w=474&h=316&rs=1",
+                "https://th.bing.com/th/id/OIP.tFgiwo0J_Jl39T4o-z25VQHaGY?pid=ImgDet&w=474&h=408&rs=1"
+               ],
+        "nome": "Notebook Samsung",
+        "descricao": "Galaxy book2 cori i7",
+        "valorComDesconto": 3980,
+        "valorSemDesconto": 4218
+    },
+
+    {
+        "id": 4,
+        "img": ["https://www.lg.com/us/images/tvs/md05965316/gallery/SK8000AUB_DZ01.jpg",
+                "https://th.bing.com/th/id/OIP.Ce6oRHI6KRR9SvRRbAezDQHaE6?pid=ImgDet&w=474&h=314&rs=1",
+                "https://th.bing.com/th/id/OIP.pD-Vof9KEJFnFAOuJ-ruvwHaE6?pid=ImgDet&w=474&h=314&rs=1"
+               ],
+        "nome": "Tv LG",
+        "descricao": "55 polegadas 8K",
+        "valorComDesconto": 2888,
+        "valorSemDesconto": 3122
+    },
+
+    {
+        "id": 5,
+        "img": ["https://th.bing.com/th/id/OIP.Rgc2Tw0MfiXY_5XjlibhAAHaHa?pid=ImgDet&w=474&h=474&rs=1",
+                "https://cdn.shopify.com/s/files/1/0593/0480/4531/products/IPHONE14PROMAX3_COLOR-SPACEBLACK_CAPACITY-ALL_1000x.png?v=1664874430",
+                "https://th.bing.com/th/id/OIP.KmWkb2YyLA_4srMPIIobsAHaHa?pid=ImgDet&w=474&h=474&rs=1"],
+        "nome": "iphone 15 pro max",
+        "descricao": "256 gb Ram 6gb",
+        "valorComDesconto": 9699,
+        "valorSemDesconto": 9989
+    },
+
+    {
+        "id": 6,
+        "img": ["https://cookeletroraro.vteximg.com.br/arquivos/ids/172079-1000-1000/2.jpg?v=637074437574270000",
+                "https://th.bing.com/th/id/OIP.LF7UA9WG5T8wCIDdgvbP8wHaGe?pid=ImgDet&w=474&h=414&rs=1",
+                "https://th.bing.com/th/id/OIP.xPFMKMWf8DVpsN7XlVDCxQHaGe?pid=ImgDet&w=474&h=414&rs=1"],
+        "nome": "Micr-Ondas Brastemp",
+        "descricao": "32 litros Espelhado",
+        "valorComDesconto": 998,
+        "valorSemDesconto": 1098
+    }
+]
+
+
+
+
+

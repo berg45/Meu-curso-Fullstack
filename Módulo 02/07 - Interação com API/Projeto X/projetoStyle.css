@@ -1,0 +1,111 @@
+header{
+    background-color: #940303;
+    color: #fcf9f9;
+    text-align: center;
+    padding: 2rem 0;
+    width: 100%;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+span.t1{
+    font-size: 40px;
+    margin-right: 50px;
+    text-decoration-line: none;
+    font-family: Goudy Stout;
+}
+span{
+    font-size: 25px;
+    margin: 10px;
+    text-decoration-line: underline;
+}
+
+.lista-card{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    row-gap: 5px;
+    margin-top: 10px;
+
+}
+
+
+.card{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: rgb(8, 8, 7);
+    background-color: #fcf9f9;
+    align-items: center;
+    box-shadow: 7px 7px 9px crimson;
+    margin: 10px;
+
+}
+.valorCom{
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+.valorSem{
+    color: red;
+    font-size: 15px;
+    text-decoration: line-through;
+}
+
+button{
+    margin: 15px;
+    font-size: 25px;
+    background-color: #e3f30d;
+}
+
+.detalhes{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid crimson;
+    border-radius: 10px;
+    width: fit-content;
+
+}
+
+.detalhes h3{
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.detalhes img{
+    align-items: center;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.valorCo{
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.valorSe{
+    color: red;
+    font-size: 15px;
+    text-decoration: line-through;
+}
+
+footer{
+    background-color: #282222;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    font-size: 20px;
+
+
+}
+footer p{
+    margin: 5px;
+}

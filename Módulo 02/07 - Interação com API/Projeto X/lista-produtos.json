@@ -8,7 +8,8 @@
         "nome": "Fogão Eletrolux",
         "descricao": "6 bocas,forno auto limpante",
         "valorComDesconto": 1998,
-        "valorSemDesconto": 2084
+        "valorSemDesconto": 2084,
+        "dados": "Cozinhe com tranquilidade e modernidade suas receitas diárias com a presença do Fogão Electrolux Experience FE5GP. Com ele na cozinha, a culinária terá outro significado para a criação de seus pratos prediletos "
     },
 
     {
@@ -20,7 +21,9 @@
         "nome": "Geladeira Brastemp Inverse",
         "descricao": "Frost free 419 litros",
         "valorComDesconto": 4699,
-        "valorSemDesconto": 4999
+        "valorSemDesconto": 4999,
+        "dados": "A Geladeira Brastemp Frost Free Inverse 443 litros tem refrigerador em cima e freezer embaixo, deixando os alimentos mais utilizados sempre à mão. Com a função Turbo Ice, faça gelo mais rápido sempre que precisar. Com a função Turbo Ice !"
+        
     }
     ,
     {
@@ -32,7 +35,8 @@
         "nome": "Notebook Samsung",
         "descricao": "Galaxy book2 cori i7",
         "valorComDesconto": 3980,
-        "valorSemDesconto": 4218
+        "valorSemDesconto": 4218,
+        "dados": "O Samsung Galaxy Book2 é o notebook da Samsung que pesa apenas 1,81kg. Ele é equipado com o processador Intel Core i5 1235U de 12ª geração, 8GB de memória RAM e 256GB de armazenamento SSD, o que garante um desempenho rápido e eficiente para qualquer tarefa." 
     },
 
     {
@@ -44,7 +48,8 @@
         "nome": "Tv LG",
         "descricao": "55 polegadas 8K",
         "valorComDesconto": 2888,
-        "valorSemDesconto": 3122
+        "valorSemDesconto": 3122,
+        "dados": "A nova Smart TV LG 55UR871C0SA 4K lhe proporciona uma imersão surreal com qualidade de imagem realista e cores vivas com quatro vezes mais precisão de pixels. O processador a5 remove o ruído gráfico, acentua o contraste e cria cores mais vibrantes. As imagens de baixa resolução são redimensionadas e reproduzidas com qualidade próxima à das imagens 4K."
     },
 
     {
@@ -55,7 +60,8 @@
         "nome": "iphone 15 pro max",
         "descricao": "256 gb Ram 6gb",
         "valorComDesconto": 9699,
-        "valorSemDesconto": 9989
+        "valorSemDesconto": 9989,
+        "dados": "iPhone 15 Pro Max. Forjado em titânio e com o incomparável chip A17 Pro, botão de Ação configurável e o sistema de câmera mais poderoso em um iPhone."
     },
 
     {
@@ -66,7 +72,8 @@
         "nome": "Micr-Ondas Brastemp",
         "descricao": "32 litros Espelhado",
         "valorComDesconto": 998,
-        "valorSemDesconto": 1098
+        "valorSemDesconto": 1098,
+        "dados": "Experimente a performance em cada detalhe. Os micro-ondas Brastemp 32L com Grill trazem novas possibilidades à sua cozinha. O Painel LCD Integrado e Design Espelhado adicionam modernidade e sofisticação. Já a função Manter Aquecido garante que seus pratos estejam na temperatura ideal no momento de servir."
     }
 ]
 

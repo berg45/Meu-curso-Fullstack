@@ -7,7 +7,7 @@ header{
     margin-right: 10px;
     border-radius: 10px;
 }
-span.t1{
+.t1{
     font-size: 40px;
     margin-right: 50px;
     text-decoration-line: none;
@@ -58,10 +58,11 @@ span{
 button{
     margin: 15px;
     font-size: 25px;
-    background-color: #e3f30d;
+    background-color: #f30d0d;
+    
 }
 
-.detalhes{
+.dados{
     display: flex;
     flex-direction: column;
     border: 2px solid crimson;
@@ -70,13 +71,13 @@ button{
 
 }
 
-.detalhes h3{
+.dados h3{
     text-align: center;
     font-size: 25px;
 
 }
 
-.detalhes img{
+.dados img{
     align-items: center;
     margin: auto;
     border-radius: 5px;
@@ -86,12 +87,24 @@ button{
     color: green;
     font-size: 20px;
     font-weight: bold;
+   
+    
+    
+}
+.valor {
+    display: flex;
+}
+.valor span{
+    margin-right: 10px;
 }
 
 .valorSe{
     color: red;
     font-size: 15px;
     text-decoration: line-through;
+}
+.descrit{
+    font-size: 20px;
 }
 
 footer{
@@ -108,4 +121,20 @@ footer{
 }
 footer p{
     margin: 5px;
+}
+
+.velops{
+    color: #fff;
+    align-items: left;
+    size: 30px;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    font-size: 20px;
+    max-width: 650px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }

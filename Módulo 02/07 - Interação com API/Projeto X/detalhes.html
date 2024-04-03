@@ -5,15 +5,38 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Document</title>
             <link rel="stylesheet" href="projetoStyle.css">
+            <link href="anexos/css/fontawesome.css" rel="stylesheet" />
+            <link href="anexos/css/brands.css" rel="stylesheet" />
+            <link href="anexos/css/solid.css" rel="stylesheet" />
         </head>
         <body>
+            <header>
+                
+                <nav>
+                    <span class="t1">Berg Store</span>
+                    <i class="fa-solid fa-laptop"></i>  
+                    <span>informatica</span>
+                    <i class="fa-solid fa-tv"></i>
+                    <span>Eletrônicos</span>
+                    <i class="fa-solid fa-house-chimney-window"></i>
+                    <span>casa</span>
+                </nav>
+            </header>
 
-            <button onclick="window.history.back()">Voltar</button>
+            <!--<button onclick="window.history.back()">Voltar</button>-->
+            <button onclick="history.back()">
+                <i class="fas fa-arrow-left"></i>
+            </button>
             
-            <div class="detalhes" id="detalhes">
+            <div class="conteiner" id="conteiner">
                 
             </div>
             
         </body>
+        <footer>
+            <p>&copy; Todos os direitos reservados.</p>
+            <i class="fa-solid fa-envelope-open velopes"></i>
+            <i class="fa-solid fa-at"></i>
+        </footer>
         <script src="detalhes.js"></script>
 </html>

@@ -11,8 +11,8 @@ async function buscar(){
         <img src="${produto.img[0]}" width="250" height="200">
         <p>${produto.descricao}</p>
             <div class="valores">
-                <span class="valorCom">${produto.valorComDesconto.toFixed(2).replace("." , ",")}</span>
-                <span class="valorSem">${produto.valorSemDesconto.toFixed(2).replace("." , ",")}</span>
+                <span class="valorCom"> R$ ${produto.valorComDesconto.toFixed(2).replace("." , ",")}</span>
+                <span class="valorSem"> R$ ${produto.valorSemDesconto.toFixed(2).replace("." , ",")}</span>
             </div>
         
         </div>

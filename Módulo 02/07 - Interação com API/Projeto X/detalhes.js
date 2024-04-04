@@ -17,26 +17,26 @@ async function buscarDetalhes(){
    }
 
    document.getElementById("conteiner").innerHTML += `
-    <div class="dados">
-        <h3>${produtos[indiceProd].nome}</h3>
-        <img src="${produtos[indiceProd].img[0]}" id="frame" width="250" height="250">
-       
-        <p class="descrit">${produtos[indiceProd].descricao}</p>
-        <div class="miniaturas" id="minis">  
+    <div class="plural">
+        <div class="dados">
+            <h3>${produtos[indiceProd].nome}</h3>
+            <img src="${produtos[indiceProd].img[0]}" id="frame" width="300" height="350">
+            <div class="miniaturas" id="minis">  </div>
+            <p class="descrit">${produtos[indiceProd].descricao}</p>
         </div>
-        
-    </div>
-    <div class="detalhes">
-        <h3>${produtos[indiceProd].dados}</h3>
-    </div>
 
-    <div> 
         <div class="valor">
             <span class="valorCo"> R$ ${produtos[indiceProd].valorComDesconto.toFixed(2).replace(".", ",")}</span>
             <span class="valorSe"> R$ ${produtos[indiceProd].valorSemDesconto.toFixed(2).replace(".", ",")}</span>
+            <button onclick="comprar()" style="background-color: green" >comprar</button>
         </div>
-        <button onclick="comprar()" style="background-color: green" >comprar</button>
     </div>
+    
+
+    <div class="detalhes">
+        <h3>${produtos[indiceProd].dados}</h3>
+    </div>
+   
     `
 
     let divMini = document.getElementById("minis")

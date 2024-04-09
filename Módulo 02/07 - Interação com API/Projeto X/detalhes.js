@@ -16,22 +16,23 @@ async function buscarDetalhes(){
 
    }
 
-   document.getElementById("conteiner").innerHTML += `
-    <div class="plural">
-        <div class="dados">
-            <h3>${produtos[indiceProd].nome}</h3>
-            <img src="${produtos[indiceProd].img[0]}" id="frame" width="300" height="350">
-            <div class="miniaturas" id="minis">  </div>
-            <p class="descrit">${produtos[indiceProd].descricao}</p>
-        </div>
+   document.getElementById("conteiner-main").innerHTML += `
+    <div class="conteiner">
+        <div class="plural">
+            <div class="dados">
+                <h3>${produtos[indiceProd].nome}</h3>
+                <img src="${produtos[indiceProd].img[0]}" id="frame" width="300" height="350">
+                <div class="miniaturas" id="minis">  </div>
+                <p class="descrit">${produtos[indiceProd].descricao}</p>
+            </div>
 
-        <div class="valor">
-            <span class="valorCo"> R$ ${produtos[indiceProd].valorComDesconto.toFixed(2).replace(".", ",")}</span>
-            <span class="valorSe"> R$ ${produtos[indiceProd].valorSemDesconto.toFixed(2).replace(".", ",")}</span>
-            <button onclick="comprar()" style="background-color: green" >comprar</button>
+            <div class="valor">
+                <span class="valorCo"> R$ ${produtos[indiceProd].valorComDesconto.toFixed(2).replace(".", ",")}</span>
+                <span class="valorSe"> R$ ${produtos[indiceProd].valorSemDesconto.toFixed(2).replace(".", ",")}</span>
+                <button class="comprar" onclick="comprar()" style="background-color: green" >comprar</button>
+            </div>
         </div>
     </div>
-    
 
     <div class="detalhes">
         <h3>${produtos[indiceProd].dados}</h3>

@@ -6,9 +6,59 @@ body{
     /*width: 100%;*/
     background-image: linear-gradient(to right, rgb(244, 224, 231),rgb(243, 182, 194), rgb(248, 104, 128));
     height: 100vh;
+}
+nav.menu-lateral{
+    width: 70px;
+    height: 100%;
+    background-color: rgb(38, 21, 28);
+    opacity: 0.8;
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 rgb(223, 8, 79);
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+nav.menu-lateral:hover{
+    width: 300px;
+
+}
+.btn-expandir{
+    width: 100%;
+    padding-left: 10px;
+}
+.btn-expandir > i{
+    color: #fff;
+    font-size: 26px;
+    cursor: pointer;
+}
+ul{
+    padding: 10px;
+    height: 100%;
+    list-style-type: none;
    
-    
- 
+}
+li{
+    transition: .2s;
+}
+li:hover{
+    background: rgb(213, 7, 103);
+}
+ul a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 23px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+ul a .txt-link{
+    margin-left: 30px;
+}
+ul a .icon > i{
+    font-size: 35px;
 }
 
 header{
@@ -21,11 +71,32 @@ header{
     border-radius: 10px;
 }
 
-span{
-    font-size: 25px;
+span.t1{
+    font-size: 50px;
     margin: 10px;
     text-decoration-line: underline;
 }
+nav.menu-top{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 0 1%;
+    color: #da1039;
+   
+}
+nav.menu-top > i{
+    padding: 15px 4%;
+    transition: .2s;
+}
+nav.menu-top > i:hover{
+    transform: scale(1.5);
+    color: #282222;
+}
+
+nav.menu-top >span:hover{
+    transform: scale(1.5);
+    color: #282222;
+}
+
 
 .lista-card{
     display: flex;
@@ -33,10 +104,10 @@ span{
     column-gap: 5PX;
     row-gap: 5px;
     margin-top: 10px;
-   
-
-
+    transition: .2s;
+    padding-left: 8%;
 }
+
 
 
 .card{
@@ -50,9 +121,13 @@ span{
     color: rgb(8, 8, 7);
     background-color: #fcf9f9;
     align-items: center;
+    transition: .5s;
     /*box-shadow: 7px 7px 9px rgb(46, 5, 13);*/
     /*margin: 10px;*/
-
+}
+.card:hover{
+    transform: scale(1.05);
+    
 }
 .valorCom{
     color: green;
@@ -69,9 +144,13 @@ button{
     margin: 15px;
     font-size: 25px;
     background-color: #faf5f5;
-    width: fit-content;
+    width: fit-content; 
+    transition: .2s;
+    border-radius: 10px;
     
-    
+}
+button:hover{
+    transform: scale(1.05);
 }
 
 
@@ -143,6 +222,10 @@ footer p{
     transition: all 0.3s ease-in-out;
     outline-offset: 4px;
     min-height: 1px;
+    transition: .2s;
+}
+.dados img:hover{
+    transform: scale(1.05);
 }
 
 .dados h3{
@@ -162,6 +245,7 @@ footer p{
     width: 400px;
     display: flex;
     
+    
 }
 .detalhes{
     width: 170px;
@@ -170,19 +254,25 @@ footer p{
     display: flex;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    
-    
-    
+    margin: 0; 
 }
 
 .comprar{
     
     border-radius: 10px;
-    margin: 0;
+    margin: 5px;
     width: 105px;
     height: 50px;
-    
+}
+nav.menu-baixo{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 0 1%;
+    color: #da1039;
+    border: 2px solid red;
+    border-radius: 15px;
+    margin-top: 10px;
+
 }
 
 

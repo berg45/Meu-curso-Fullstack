@@ -20,12 +20,34 @@ async function buscar(){
         `
     }
 
+    
+    /*/ parte 2/*/
+
+    let procurar = await fetch("new-lista.json")
+    let newList = await procurar.json()
+
+    let divLista2 = document.getElementById("nova-lista")
+
+    for( let nova of newList){
+        divLista2.innerHTML +=` 
+        <div class="card" data-id="${nova.id}">
+        <div class="card">
+           <h3>${nova.nome}</h3>
+           <img src="${nova.img}" width="250" height="200">
+           <p>${nova.descricao}</p>
+           <div class="valores">
+                <span class="valorCom">R$ ${nova.valorComDesconto.toFixed(2).replace("." , ",")}</span>
+                <span class="valorSem">R$ ${nova.valorSemDesconto.toFixed(2).replace("." , ",")}</span>
+           </div>
+        </div>
+        `
+    }
+
     let divsCards = document.getElementsByClassName("card")
     for(let card of divsCards){
         card.addEventListener("click" , clicou)
     }
     
-
 }
 
 function clicou(){

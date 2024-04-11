@@ -1,19 +1,23 @@
 async function buscarDetalhes(){
-    let busca = await fetch("lista-produtos.json")
-    let produtos = await busca.json()
+    
     let parametros = new URLSearchParams(window.location.search)
-    
     let parametroID = parametros.get("produto-id")
+
+    let busca
+    if(parametroID >= 7){
+        busca = await fetch("new-lista.json")
+    }else{
+        busca = await fetch("lista-produtos.json")
+    }
     
+    let produtos = await busca.json()
+
     let indiceProd
-    
     for(let x in produtos){
          
         if(produtos[x].id == parametroID){
-             
             indiceProd = x
         }
-
    }
 
    document.getElementById("conteiner-main").innerHTML += `
@@ -44,7 +48,8 @@ async function buscarDetalhes(){
     for(let y of produtos[indiceProd].img){
         divMini.innerHTML +=`
         <img src="${y}" class="mini" width="80" height="80" style="border: 1px solid #000 ; border-radius: 10px">
-        `
+        
+          `
 
     }
 

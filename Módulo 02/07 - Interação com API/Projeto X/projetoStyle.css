@@ -4,8 +4,7 @@ body{
     flex-direction: column;
     padding: 0;
     /*width: 100%;*/
-    background-image: linear-gradient(to right, rgb(244, 224, 231),rgb(243, 182, 194), rgb(248, 104, 128));
-    height: 100vh;
+    background-image: linear-gradient(to right, rgb(243, 104, 153),rgb(241, 56, 93), rgb(223, 22, 55));
 }
 nav.menu-lateral{
     width: 70px;
@@ -72,7 +71,7 @@ header{
 }
 
 span.t1{
-    font-size: 50px;
+    font-size: 90px;
     margin: 10px;
     text-decoration-line: underline;
 }
@@ -80,7 +79,7 @@ nav.menu-top{
     text-align: center;
     font-size: 30px;
     padding: 10px 0 1%;
-    color: #da1039;
+    color: #f5eef0;
    
 }
 nav.menu-top > i{
@@ -106,6 +105,7 @@ nav.menu-top >span:hover{
     margin-top: 10px;
     transition: .2s;
     padding-left: 8%;
+    background-color: #282222;
 }
 
 
@@ -114,14 +114,15 @@ nav.menu-top >span:hover{
     /*border: 2px solid black;*/
     display: flex;
     flex-direction: column;
-    width: fit-content;
+    width: 300px;
     padding: 5px;
+    margin-bottom: 10px;
     border-radius: 10px;
     font-size: 20px;
     color: rgb(8, 8, 7);
     background-color: #fcf9f9;
     align-items: center;
-    transition: .5s;
+    transition: .3s;
     /*box-shadow: 7px 7px 9px rgb(46, 5, 13);*/
     /*margin: 10px;*/
 }
@@ -163,7 +164,7 @@ button:hover{
 
 
 .valorSe{
-    color: red;
+    color: rgb(92, 4, 4);
     font-size: 20px;
     text-decoration: line-through;
 }
@@ -175,9 +176,8 @@ footer{
     padding: 10px 0;
     bottom: 0;
     width: 100%;
-    position: fixed;
     font-size: 20px;
-
+    margin-top: 50px;    
 
 }
 footer p{
@@ -190,7 +190,7 @@ footer p{
     size: 30px;
 }
 .conteiner-main{
-    display: flex;
+    display: block;
     align-content: center;
     align-self: center;
     align-items: center;
@@ -234,7 +234,7 @@ footer p{
     margin: 0;
 }
 .descrit{
-    margin: 0;
+    
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -251,7 +251,9 @@ footer p{
     width: 170px;
 }
 .detalhes h3{
-    display: flex;
+    
+    width: 500px;
+    height: fit-content;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0; 
@@ -268,12 +270,13 @@ nav.menu-baixo{
     text-align: center;
     font-size: 30px;
     padding: 10px 0 1%;
-    color: #da1039;
+    color: #f0e4e6;
     border: 2px solid red;
     border-radius: 15px;
     margin-top: 10px;
 
 }
+
 
 
 

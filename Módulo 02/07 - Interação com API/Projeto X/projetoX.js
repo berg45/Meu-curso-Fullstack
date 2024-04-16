@@ -33,7 +33,7 @@ async function buscar(){
         <div class="card" data-id="${nova.id}">
         <div class="card">
            <h3>${nova.nome}</h3>
-           <img src="${nova.img}" width="250" height="200">
+           <img src="${nova.img[0]}" width="250" height="200">
            <p>${nova.descricao}</p>
            <div class="valores">
                 <span class="valorCom">R$ ${nova.valorComDesconto.toFixed(2).replace("." , ",")}</span>
@@ -42,6 +42,7 @@ async function buscar(){
         </div>
         `
     }
+    
 
     let divsCards = document.getElementsByClassName("card")
     for(let card of divsCards){

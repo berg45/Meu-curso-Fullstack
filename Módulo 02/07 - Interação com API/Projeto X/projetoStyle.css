@@ -5,6 +5,7 @@ body{
     padding: 0;
     /*width: 100%;*/
     background-image: linear-gradient(to right, rgb(243, 104, 153),rgb(241, 56, 93), rgb(223, 22, 55));
+
 }
 nav.menu-lateral{
     width: 70px;
@@ -75,26 +76,6 @@ span.t1{
     margin: 10px;
     text-decoration-line: underline;
 }
-nav.menu-top{
-    text-align: center;
-    font-size: 30px;
-    padding: 10px 0 1%;
-    color: #f5eef0;
-   
-}
-nav.menu-top > i{
-    padding: 15px 4%;
-    transition: .2s;
-}
-nav.menu-top > i:hover{
-    transform: scale(1.5);
-    color: #282222;
-}
-
-nav.menu-top >span:hover{
-    transform: scale(1.5);
-    color: #282222;
-}
 
 
 .lista-card{
@@ -144,7 +125,7 @@ nav.menu-top >span:hover{
 .button1{
     margin: 15px;
     font-size: 25px;
-    background-color: #faf5f5;
+    background-color: #69c2eb;
     width: fit-content; 
     transition: .2s;
     border-radius: 10px;
@@ -177,7 +158,8 @@ footer{
     bottom: 0;
     width: 100%;
     font-size: 20px;
-    margin-top: 50px;    
+    margin-top: 50px;
+    position: fixed;    
 
 }
 footer p{
@@ -267,16 +249,7 @@ footer p{
     width: 105px;
     height: 50px;
 }
-nav.menu-baixo{
-    text-align: center;
-    font-size: 30px;
-    padding: 10px 0 1%;
-    color: #f0e4e6;
-    border: 2px solid red;
-    border-radius: 15px;
-    margin-top: 10px;
 
-}
 /* longin*/
 
 .container {
@@ -310,7 +283,7 @@ h2 {
 }
 
 button {
-    width: 100%;
+    /*width: 100%;*/
     padding: 10px;
     background-color: #007bff;
     color: #fff;
@@ -337,7 +310,89 @@ button:hover {
   .button {
     cursor: pointer;
   }
-  
+  .menu-horizontal nav {
+    background-color: #333;
+}
+/*/menu horizontal/*/
+
+
+.menu-horizontal ul {
+    list-style-type: none;
+    padding-left: 30%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.menu-horizontal li {
+    float: left;
+}
+
+.menu-horizontal li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: .1s;
+}
+
+.menu-horizontal li a:hover {
+    background-color: #111;
+
+}
+/*contato*/
+  div.container3{
+    
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    /*background-color: #fff;*/
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+      
+   
+  }
+  .contact-info {
+    margin-bottom: 20px;
+  }
+  .contact-info h3 {
+
+    align-items: center;
+    font-size: 40px;
+    margin-top: 0;
+    color: #ecdddd;
+  }
+  .contact-info ul, .contact-info p {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: #021830;
+    font-size: 30px;
+  }
+  .contact-info ul li {
+    margin-bottom: 5px;
+    color: #022640;
+    font-size: 30px;
+  }
+  .chat-container {
+    margin-top: 20px;
+  }
+  .chat-container h3 {
+    color: #01152a;
+  }
+  iframe {
+    width: 50px;
+    height: 50px; /* Ajuste conforme necessário */
+    border: none;
+  }
+
+
+
 
 
 

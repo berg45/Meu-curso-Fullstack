@@ -68,5 +68,19 @@
         "valorSemDesconto": 6289, 
         "dados": "Ele possui 256GB de armazenamento interno para guardar diversos aplicativos, fotos, vídeos e jogos, 12GB de memória RAM e processador Qualcomm Snapdragon 8 Gen 2 que evita aquelas travadas durante o uso. A tela dele é Dynamic AMOLED 2X de 6,8"
         
+    },
+
+    {
+        "id": 12,
+        "nome": "Notebook lenovo",
+        "img": ["https://images.tcdn.com.br/img/img_prod/1066780/notebook_lenovo_gaming_3i_intel_i5_10a_gtx1650_4gb_8gb_ram_256gb_ssd_15_6_linux_4777_2_f44e5d4fccc20b5617601d6a5f403120_20211203085437.jpg",
+                "https://th.bing.com/th/id/OIP.zQxQvaDQJbcBse6DASvd0wHaHa?pid=ImgDet&w=474&h=474&rs=1",
+                "https://th.bing.com/th/id/OIP.Tf5y_Aji5OlK6JvY49WJlQHaHa?pid=ImgDet&w=474&h=474&rs=1"
+              ],
+        "descricao": "Notebook Gamer Lenovo i5-11300H NVIDIA",
+        "valorComDesconto": 3779,
+        "valorSemDesconto":  3999,
+        "dados": "Com poderosos processadores Intel® Core™ de 11ª geração e gráficos NVIDIA® GeForce GTX™, o IdeaPad Gaming 3i 6ª Geração (15? Intel) vai ajudar você a jogar de verdade."
+
     }
 ]

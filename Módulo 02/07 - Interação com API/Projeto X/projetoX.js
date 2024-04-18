@@ -3,7 +3,7 @@ async function buscar(){
     let produtos = await achar.json()
 
     let divLista = document.getElementById("lista-card")
-
+    
     for(let produto of produtos){
         divLista.innerHTML += `
         <div class="card" data-id="${produto.id}">
@@ -48,6 +48,10 @@ async function buscar(){
     for(let card of divsCards){
         card.addEventListener("click" , clicou)
     }
+    
+
+
+        
     
 }
 

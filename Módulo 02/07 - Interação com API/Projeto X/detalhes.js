@@ -45,6 +45,7 @@ async function buscarDetalhes(){
     </div>
    
     `
+  
 
     let divMini = document.getElementById("minis")
     for(let y of produtos[indiceProd].img){
@@ -64,7 +65,7 @@ function deslize(){
     document.getElementById("frame").src = this.src
     
 }
-    
+
     
 }
 buscarDetalhes()

@@ -1,8 +1,6 @@
 body{
     margin: 0;
     display: flex;
-    justify-content: center;
-   
     flex-direction: column;
     padding: 0;
     /*width: 100%;*/
@@ -17,7 +15,7 @@ body{
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center;
-    height: 100vh;
+    /*height: 100vh;*/
 }
 nav.menu-lateral{
     width: 70px;
@@ -99,6 +97,7 @@ span.t1{
     transition: .2s;
     padding-left: 8%;
     background-color: #282222;
+    padding: 20px;
 }
 
 
@@ -176,7 +175,7 @@ footer{
     width: 100%;
     font-size: 20px;
     margin-top: 50px;
-    position: fixed;    
+     
 
 }
 footer p{
@@ -303,11 +302,13 @@ button {
     /*width: 100%;*/
     padding: 10px;
     background-color: #007bff;
-    color: #fff;
+    color: #f0e5e5;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-size: 13px;
+    
 }
 
 button:hover {
@@ -469,6 +470,7 @@ button:hover {
     justify-content: center; /* Adicionado */
     align-items: center; /* Adicionado */
     width: 100%; /* Adicionado */
+    
     
 }
 .form-container h2 {

@@ -33,8 +33,8 @@ async function buscarDetalhes(){
             <div class="valor">
                 <span class="valorCo"> R$ ${produtos[indiceProd].valorComDesconto.toFixed(2).replace(".", ",")}</span>
                 <span class="valorSe"> R$ ${produtos[indiceProd].valorSemDesconto.toFixed(2).replace(".", ",")}</span>
-                <button class="comprar" onclick="comprar()" style="background-color: green" >comprar</button>
-                <button class="comprar" onclick="adicionar()" style="background-color: blu" >adicionar ao carrinho</button>
+                <button class="comprar" onclick="comprar()" style="background-color: green" ><a href="longin.html">comprar</a></button>
+                <button class="comprar" onclick="adicionar()" style="background-color: blu" ><a href="carrinho.html">adicionar ao carrinho</a></button>
                 
             </div>
         </div>

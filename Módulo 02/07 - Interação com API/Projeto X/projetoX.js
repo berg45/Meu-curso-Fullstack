@@ -3,6 +3,8 @@ async function buscar(){
     let produtos = await achar.json()
 
     let divLista = document.getElementById("lista-card")
+
+  
     
     for(let produto of produtos){
         divLista.innerHTML += `
@@ -19,6 +21,7 @@ async function buscar(){
         
         `
     }
+   
 
     
     /*/ parte 2/*/
